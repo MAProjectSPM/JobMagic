@@ -20,7 +20,6 @@ export default function SearchbarComponent(){
     ];
 
     return(
-        <div>
             <div className="search">
              <Autocomplete
                 options={skills.map((option) => option.category)}
@@ -60,7 +59,5 @@ export default function SearchbarComponent(){
               </Button>
               </div>
             </div>
-            <div></div>
-        </div>
     )
 }

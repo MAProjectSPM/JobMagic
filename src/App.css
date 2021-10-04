@@ -1,38 +1,197 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.searchDiv{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 25vh;
+}
+.bannertext{
+  display: grid;
+  justify-content: center;
+  padding-top: 130px;
+}
+
+.bannertext .css-5lbw0b-MuiTypography-root {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 600;
   color: white;
+  font-size: 2.4rem;
+  line-height: 1;
+  letter-spacing: 0.00735em;
+}
+.text2{
+    font-weight: 600;
+    color: white;
+    font-size: 1.3rem;
+    display: grid;
+    justify-content: center;
+}
+.mobiletext .css-5lbw0b-MuiTypography-root{
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  padding-top: 100px;
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.text3{
+  font-weight: 500;
+  color: white;
+  font-size: 1.2rem;
+  display: grid;
+  justify-content: center;
+}
+.text4{
+  color:black;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.mobsearch{
+  text-align: center;
+}
+.mobsearch .css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+  background-color: white;
+  color: #080808;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+.rectext .css-5lbw0b-MuiTypography-root {
+  margin-left: 10vw;
+  font-size: 1.5rem;
+  padding-top: 20px;
+ }
+.recShadow{
+  box-shadow: 0px 1px 2px #808080bd;
 }
 
-.App-link {
-  color: #61dafb;
+.button .css-1qozpde-MuiButtonBase-root-MuiButton-root{
+  float: right;
+  border-radius: 50px;
+  margin-top: 38px;
+  margin-right: 15vw;
+}
+.button:hover{
+  background-color: white;
+  border-radius: 20px;
+}
+.rectext1 .css-ag7rrr-MuiTypography-root {
+  margin-left: 15px;
+    font-size: 1.1rem;
+    padding-top: 20px;
+}
+ .button1 .css-11jqx3f-MuiButtonBase-root-MuiButton-root{
+  border-radius: 20px;
+  margin-top: 13vh;
+  position: absolute;
+  margin-left: 32vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.button1:hover{
+  background-color: white;
+  border-radius: 20px;
+}
+.text5{
+  color:black;
+  font-weight: 600;
+}
+.wfhcard{
+  height: 40vh;
+  width: 70vw;
+  margin-bottom:  5px;
+  margin-left: 8px;
+}
+.wfhtitle{ 
+  padding-left: 20px;
+  padding-top: 12px;
+}
+.wfhcarousel{
+  margin-top:  10px;
+  width: 68vw;
+    margin-left: 8px;
+}
+.wfhitem{
+ height: 28vh;
+  padding-top: 2vh;
+}
+.wfhcards{
+  padding-left: 2vw;
+    width: 18vw;
+    height: 25vh;
+    margin-left: 1.5vw;
+    background-color: #d3d3d326 !important;  
+}
+.wfhcard .react-multiple-carousel__arrow {
+  position: absolute;
+  outline: 0;
+  transition: all .5s;
+  border-radius: 25px;
+  z-index: 1000;
+  border: 0;
+  background: rgb(255 255 255);
+  min-width: 35px;
+  min-height: 35px;
+  opacity: 124;
+  cursor: pointer;
+  box-shadow: 0px 0px 4px lightgrey;
+}
+.wfhcard .react-multiple-carousel__arrow--left {
+  left: calc(0% + 1px);
+}
+.wfhcard .react-multiple-carousel__arrow--right {
+  right: calc(0% + 0px);
+}
+.wfhcard .react-multiple-carousel__arrow:hover {
+  background: rgb(255 255 255);
+}
+.wfhcard .react-multiple-carousel__arrow::before {
+  font-size: 15px;
+  font-weight: bold;
+  color: #080808;
+  display: block;
+  font-family: revicons;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+.top {
+  width: 27vw;
+  height: 81vh;
+  margin-left: 4.5vw; 
+}
+.view{
+  margin-left: 20vw;
+}
+@media screen and (max-width: 500px) {
+  .wfhitem{
+    height: 27vh;
   }
-  to {
-    transform: rotate(360deg);
+  .wfhcards{
+    width: 92vw;
   }
+  .wfhcard .react-multiple-carousel__arrow {
+  display:none;
+}
+.wfhcarousel{
+  margin-top:  10px;
+  width: 100vw;
+  margin-left: 8px;
+}
+.wfhcard{
+  height: 40vh;
+  width: 98vw;
+  margin-left: 0vw;
+}
+.wfhtitle{ 
+  padding-left: 20px;
+  padding-top: 12px;
+}
+.top{
+  margin-top: 82vh;
+  margin-left: -69vw;
+  width: 98vw;
+  height: 50vh;
+}
+.view{
+  margin-left: 71vw;
+}
 }

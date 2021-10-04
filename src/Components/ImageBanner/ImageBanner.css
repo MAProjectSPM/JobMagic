@@ -1,0 +1,19 @@
+.imagebanner {
+    height: 12vh;
+    
+}
+.imagebanner .css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    width: 98vw;
+}
+.mobile{
+    position: absolute;
+    top: 63vh;
+}
+.mobile .css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    width: 98vw;
+}
+
+ .MuiButtonBase-root { 
+    margin-top: 24px;
+}
+

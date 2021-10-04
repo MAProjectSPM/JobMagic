@@ -1,0 +1,26 @@
+.foot .css-mhc70k-MuiGrid-root {
+    text-align: center;
+}
+.li::after {
+    
+        font-size: 15px;
+        font-weight: bold;
+        color: #080808;
+        display: block;
+        font-family: revicons;
+        text-align: center;
+        z-index: 2;
+        position: relative;
+}
+.mobilefoot{
+    display: flex;
+    align-items: center;
+}
+.icons{
+    text-align: center;
+    margin-top: 4vh;
+}
+.copy{
+    font-size: 0.9rem;
+    margin-left: 7vw;
+}

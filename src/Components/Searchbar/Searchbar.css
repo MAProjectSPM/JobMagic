@@ -1,28 +1,22 @@
 .search{
     display: flex;
-    width: 85vw;
-    margin-left: 90px;
+    width: 72vw;
     background-color: #cee0f3;
-    justify-content:space-around;
-    align-items:stretch;
-    align-content: space-around;
-    border-radius: 35px;
+    border-radius: 28px;
     height: 80px;
+
 }
 .input1{
-    width:245px;
-    padding-left:30px;
-    padding-right:20px;
+    width: 24vw;
+    padding-left: 35px;
 }
 .input2{
-    width:450px;
-    padding-left:20px;
-    padding-right:20px
+    width: 45vw;
+    padding-left: 1vw;
 }
 .input3{
-    width:200px;
-    padding-left:20px;
-    padding-right:20px
+    width: 25vw;
+    padding-left: 1vw;
 }
 .location{
     color: rgba(0, 0, 0, 0.479);
@@ -31,8 +25,8 @@
     margin-left: 145px;
 }
 .searchIcon{
-    margin-top: 18px ; 
-    margin-right: 4px;
+    margin-top: 3vh;
+    margin-right: 1vw;
     color:rgb(0 0 0 1.54);
 }
 .icon{
@@ -52,16 +46,3 @@
     height: 40px;
 }
 
-/* .MuiInputBase-root {
-    color: rgb(0 0 0 / 45%);
-    cursor: text;
-    display: inline-flex;
-    position: relative;
-   
-    box-sizing: border-box;
-    align-items: center;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: 400;
-    line-height: 1.1876em;
-    letter-spacing: 0.00938em;
-} */
