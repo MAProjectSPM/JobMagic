@@ -16,7 +16,8 @@ export default function ImageBannerComponent(props) {
                     <div><img src={wipro} width="98vw" height="50px" /></div>
                     <div><img src={bosch} width="98vw" height="50px" /></div>
                     <div><img src={ibm} width="98vw" height="50px" /></div>
-                </IconButton></div>
+                </IconButton>
+            </div>
 
 
 

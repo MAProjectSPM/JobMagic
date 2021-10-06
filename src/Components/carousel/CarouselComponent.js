@@ -171,19 +171,16 @@ export default function CarouselComponent() {
               <List
                 sx={{
                   width: '100%',
-                  maxWidth: 360,
+                  maxWidth: 500,
                   bgcolor: 'background.paper',
                 }}
               >
-                <ListItem>
-                  <ListItemText primary="Jobs by Top Skills" />
-                </ListItem>
+                 <Typography variant="h6" className="wfhtitle">Jobs by Top skills</Typography>
                 <Divider component="li" />
                 <li>
                   <Typography variant="h8"
                     sx={{ mt: 0.5, ml: 2 }}
-                    color="text.secondary"
-                    display="block"
+                    display="flex"
                   >
                     Accounting Jobs <br />
                     Analytical Jobs <br />
@@ -196,13 +193,12 @@ export default function CarouselComponent() {
                     Marketing jobs <br />
                     Mechanical Engineering Jobs <br />
                     Networking jobs <br />
-                    Data Science Jobs <br />
-                    Java Jobs <br />
-                    Marketing jobs <br />
                   </Typography>
                 </li>
                 <div className="view">
-                  <Link href="#" underline="none">View all</Link>
+                 <Router>
+                 <Link href="#" style={{underline:"none"}}>View all</Link>
+                 </Router>
                 </div>
               </List>
             </Card>

@@ -3,11 +3,12 @@
   align-items: center;
   justify-content: center;
   height: 25vh;
+  padding-top: 22px;
 }
 .bannertext{
   display: grid;
   justify-content: center;
-  padding-top: 130px;
+  padding-top: 105px;
 }
 
 .bannertext .css-5lbw0b-MuiTypography-root {
@@ -16,7 +17,7 @@
   color: white;
   font-size: 2.4rem;
   line-height: 1;
-  letter-spacing: 0.00735em;
+  letter-spacing: 2px
 }
 .text2{
     font-weight: 600;
@@ -24,6 +25,7 @@
     font-size: 1.3rem;
     display: grid;
     justify-content: center;
+    padding-top: 4px;
 }
 .mobiletext .css-5lbw0b-MuiTypography-root{
   text-align: center;
@@ -44,7 +46,7 @@
 .text4{
   color:black;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 .mobsearch{
   text-align: center;
@@ -56,9 +58,10 @@
   margin-top: 20px;
 }
 .rectext .css-5lbw0b-MuiTypography-root {
-  margin-left: 10vw;
-  font-size: 1.5rem;
-  padding-top: 20px;
+  margin-left: 60px;
+  font-size: 1.7rem;
+  padding-top: 40px;
+  font-weight: 500;
  }
 .recShadow{
   box-shadow: 0px 1px 2px #808080bd;
@@ -66,9 +69,12 @@
 
 .button .css-1qozpde-MuiButtonBase-root-MuiButton-root{
   float: right;
+  font-weight: 550;
+  border: 2px solid;
   border-radius: 50px;
-  margin-top: 38px;
-  margin-right: 15vw;
+  margin-top: 50px;
+  margin-right: 5vw;
+  
 }
 .button:hover{
   background-color: white;
@@ -103,6 +109,10 @@
 .wfhtitle{ 
   padding-left: 20px;
   padding-top: 12px;
+}
+.wfhcard .css-2ulfj5-MuiTypography-root {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 600;
 }
 .wfhcarousel{
   margin-top:  10px;
@@ -158,6 +168,9 @@
   height: 81vh;
   margin-left: 4.5vw; 
 }
+.top .css-10hburv-MuiTypography-root{
+  font-weight: 600;
+}
 .view{
   margin-left: 20vw;
 }
@@ -178,7 +191,7 @@
 }
 .wfhcard{
   height: 40vh;
-  width: 98vw;
+  width: 100vw;
   margin-left: 0vw;
 }
 .wfhtitle{ 
@@ -188,10 +201,10 @@
 .top{
   margin-top: 82vh;
   margin-left: -69vw;
-  width: 98vw;
+  width: 100vw;
   height: 50vh;
 }
 .view{
-  margin-left: 71vw;
+  margin-left: 70vw;
 }
 }

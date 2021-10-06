@@ -1,16 +1,21 @@
 .imagebanner {
     height: 12vh;
-    
+    margin-top: 20px;
+}
+.company{
+    padding-left: 10px;
 }
 .imagebanner .css-78trlr-MuiButtonBase-root-MuiIconButton-root{
     width: 98vw;
 }
 .mobile{
-    position: absolute;
-    top: 63vh;
+    position: relative;
+    top: 1vh;
+    height: 12vh;
+    display: flex;
 }
 .mobile .css-78trlr-MuiButtonBase-root-MuiIconButton-root{
-    width: 98vw;
+    width: 95vw;
 }
 
  .MuiButtonBase-root { 

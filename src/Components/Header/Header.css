@@ -1,10 +1,41 @@
 .Bgcolor .css-3il4n3-MuiPaper-root-MuiAppBar-root {
     background-color: #fff;
     color: rgba(0, 0, 0, 0.87);
-    
 }
 .Bgcolor .css-ciy9n4-MuiPaper-root-MuiAppBar-root {
     background-color: #fff;
-    color: rgba(0, 0, 0, 0.87);
-    
+    color: rgba(0, 0, 0, 0.87);   
+}
+.appbar{
+    display: flex;
+    position: fixed;
+}
+.logo{
+ display: flex;
+    padding-left: 20px;
+}
+.menu{
+   display: flex;
+    padding-left: 25px;
+}
+.menus{
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 18px;
+    padding-left: 35px;
+    padding-right: 20px;
+}
+.sign{
+    padding-right: 10px;
+}
+.sign .css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid;
+}
+
+.sign .css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover {
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid;
 }

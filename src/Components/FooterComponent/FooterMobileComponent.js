@@ -12,7 +12,7 @@ export default function FooterMobileComponent(props) {
         background: {
             backgroundColor: "#eef4fb",
             height: "20vh",
-            width: "100%",
+            width: "100vw",
             bottom: 0
         }
     }));

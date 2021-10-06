@@ -103,7 +103,7 @@ export default function PersistentDrawerRight() {
             <Button variant="outlined" color="inherit" size="large">START RECRUITING</Button>
         </div>
           <div className="rectext">
-            <Typography variant="h4"><span className="text4">Recurting?</span> Advertise your jobs to  millions of monthly users and serach applicaticants in our Database. </Typography>
+            <Typography variant="h4"><span className="text4">Recruiting?</span> Advertise your jobs to  millions of monthly users and search applicaticants in our Database. </Typography>
         </div>
        
         </RecruitingComponent>

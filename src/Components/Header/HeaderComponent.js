@@ -6,6 +6,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Grid from "@mui/material/Grid";
 import Link from '@mui/material/Link';
 import MuiAppBar from '@mui/material/AppBar';
+import { Button } from '@mui/material';
 import { makeStyles} from "@material-ui/core/styles";
 import { styled, useTheme } from '@mui/material/styles';
 import logo from '../../Images/logo.png';
@@ -19,7 +20,7 @@ export default function HeaderComponent() {
   const useStyles = makeStyles(theme => ({
 
     MenuIcon: {
-       marginLeft: "50vw",
+       marginLeft: "45vw",
       [theme.breakpoints.up("md")]: {
         display: "none"
       }
@@ -63,18 +64,21 @@ export default function HeaderComponent() {
   return (
     <>
      <div className="Bgcolor">
-     <AppBar position="fixed" open={open}>
+     <AppBar className="appbar" open={open}>
         <Toolbar>
         <IconButton >
-        <div ><img src={logo} width="130px" height="50px"/> </div>
+        <div className="logo"><img src={logo} width="130px" height="50px"/> </div>
           </IconButton>
         <div className={classes.Menu}>
-          <Grid container xs={9.5} >
-            <Grid item xs={1}><Link href="BannerComponent" color="inherit" underline="none">Home</Link></Grid>
-            <Grid item xs={1.3}><Link href="#" color="inherit" underline="none">About Us</Link></Grid>
-            <Grid item xs={1}><Link href="#" color="inherit" underline="none">Jobs</Link></Grid>
-            <Grid item xs={1}><Link href="#" color="inherit" underline="none">Contact Us</Link></Grid>
+          <Grid container className="menu" >
+            <Grid item className="menus"><Link href="BannerComponent" color="inherit" underline="none">Home</Link></Grid>
+            <Grid item className="menus"><Link href="#" color="inherit" underline="none">About Us</Link></Grid>
+            <Grid item className="menus"><Link href="#" color="inherit" underline="none">Jobs</Link></Grid>
+            <Grid item className="menus"><Link href="#" color="inherit" underline="none">Contact Us</Link></Grid>
           </Grid>
+          </div>
+          <div className="sign">
+            <Button variant="outlined" size="medium">Sign&nbsp;In</Button>
           </div>
           <IconButton
             color="inherit"

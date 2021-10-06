@@ -14,13 +14,14 @@
 }
 .mobilefoot{
     display: flex;
-    align-items: center;
+    
 }
 .icons{
     text-align: center;
-    margin-top: 4vh;
+    margin-top: 3vh;
 }
 .copy{
-    font-size: 0.9rem;
-    margin-left: 7vw;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-left: 20px;
 }

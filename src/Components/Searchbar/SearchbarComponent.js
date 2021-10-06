@@ -40,17 +40,7 @@ export default function SearchbarComponent(){
                 options={skills.map((option) => option.location)}
                 className="input3"
                 renderInput={(params) => (
-                <TextField {...params} label="Location" size='small' margin="normal" variant="outlined" helperText={"eg. Delhi, Pune"} style={{width:'200px',borderRadius:'7px'}}
-                 InputProps={{
-                    endAdornment: (
-                      <div className="icon">
-                        <InputAdornment position="end">
-                        <LocationOnRounded className="location" />
-                      </InputAdornment>
-                      </div>
-                    )
-                  }}      
-                />
+                <TextField {...params} label="Location" size='small' margin="normal" variant="outlined" helperText={"eg. Delhi, Pune"} />
                )}  
             />
               <div className="searchIcon">

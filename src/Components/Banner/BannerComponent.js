@@ -18,7 +18,7 @@ export default function BannerComponent(props) {
       width: props.bannerWidth,
       marginTop: props.bannertop,
       backgroundRepeat: "no-repeat",
-    
+      backgroundSize: "100%"
     }
   }));
   const classes = useStyles();

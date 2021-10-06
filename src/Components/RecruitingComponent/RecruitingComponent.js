@@ -4,7 +4,7 @@ export default function Recruiting(props) {
   const useStyles = makeStyles(theme => ({
     background:{
         backgroundColor: "#eef4fb",
-        height: "20vh",
+        height: "25vh",
         width: "100%"
     }
   }));
