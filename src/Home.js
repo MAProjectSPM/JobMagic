@@ -98,7 +98,7 @@ export default function PersistentDrawerRight() {
         <ImageBannerComponentMobile></ImageBannerComponentMobile>
       </div>
       <div className={classes.recShadow}>
-        <RecruitingComponent>
+        <RecruitingComponent className="shadow">
         <div className="button">
             <Button variant="outlined" color="inherit" size="large">START RECRUITING</Button>
         </div>

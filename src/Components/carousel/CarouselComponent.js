@@ -8,10 +8,8 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 import { Link, Route, BrowserRouter as Router } from 'react-router-dom';
-
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -47,6 +45,18 @@ export default function CarouselComponent() {
       partialVisibilityGutter: 30
     }
   }
+  const listitem = [
+    {item: "Accounting Jobs"},
+    {item: "Analytical Jobs"},
+    {item: "Animation Jobs"},
+    {item: "Architecture Jobs"},
+    {item: "Banking Jobs"},
+    {item: "BPO Jobs"},
+    {item: "Data Science Jobs"},
+    {item: "Java Jobs"},
+    {item: "Marketing Jobs"},
+    {item: "Networking Jobs"},
+  ]
 
 
   return (
@@ -71,37 +81,37 @@ export default function CarouselComponent() {
                 swipeable
               ><Card className="wfhcards">
                   <CardContent>
-                    <Typography gutterBottom variant="h6" component="div">
+                    <Typography gutterBottom fontWeight="550"  component="div">
                       Quess IT Staffing
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                       Supply chain Advisor <br />
                       Experience: 0-0 Years<br />
-                      Location(s): Bengaluru/Bangalore
+                      Location(s): Bangalore
                     </Typography>
                   </CardContent>
                 </Card>
                 <Card className="wfhcards">
                   <CardContent>
-                    <Typography gutterBottom variant="h6" component="div">
+                    <Typography gutterBottom fontWeight="550" component="div">
                       Company Name
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                       RPA Developer Role <br />
                       Experience: 2-4 Years <br />
-                      Location(s): Bengaluru/Bangalore
+                      Location(s): Bangalore
                     </Typography>
                   </CardContent>
                 </Card>
                 <Card className="wfhcards">
                   <CardContent>
-                    <Typography gutterBottom variant="h6" component="div">
+                    <Typography gutterBottom fontWeight="550" component="div">
                       Company Name
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                       RPA Developer Role <br />
                       Experience:2-4 Years <br />
-                      Location(s): Bengaluru/Bangalore
+                      Location(s): Bangalore
                     </Typography>
                   </CardContent>
                 </Card>
@@ -127,37 +137,37 @@ export default function CarouselComponent() {
                 swipeable
               ><Card className="wfhcards">
                   <CardContent>
-                    <Typography gutterBottom variant="h6" component="div">
+                    <Typography gutterBottom fontWeight="550"  component="div">
                       Quess IT Staffing
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                       Supply chain Advisor <br />
                       Experience: 0-0 Years<br />
-                      Location(s): Bengaluru/Bangalore
+                      Location(s): Bangalore
                     </Typography>
                   </CardContent>
                 </Card>
                 <Card className="wfhcards">
                   <CardContent>
-                    <Typography gutterBottom variant="h6" component="div">
-                      Company Name
+                    <Typography gutterBottom fontWeight="550"  component="div">
+                      Infosys
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                       RPA Developer Role <br />
                       Experience: 2-4 Years <br />
-                      Location(s): Bengaluru/Bangalore
+                      Location(s): Bangalore
                     </Typography>
                   </CardContent>
                 </Card>
                 <Card className="wfhcards">
                   <CardContent>
-                    <Typography gutterBottom variant="h6" component="div">
-                      Company Name
+                    <Typography gutterBottom fontWeight="550" component="div">
+                      TCS
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                       RPA Developer Role <br />
                       Experience: 2-4 Years <br />
-                      Location(s): Bengaluru/Bangalore
+                      Location(s): Bangalore
                     </Typography>
                   </CardContent>
                 </Card>
@@ -175,31 +185,44 @@ export default function CarouselComponent() {
                   bgcolor: 'background.paper',
                 }}
               >
-                 <Typography variant="h6" className="wfhtitle">Jobs by Top skills</Typography>
-                <Divider component="li" />
-                <li>
-                  <Typography variant="h8"
-                    sx={{ mt: 0.5, ml: 2 }}
-                    display="flex"
-                  >
-                    Accounting Jobs <br />
-                    Analytical Jobs <br />
-                    Animation Jobs <br />
-                    Architecture Jobs <br />
-                    Banking Jobs <br />
-                    BPO Jobs <br />
-                    Data Science Jobs <br />
-                    Java Jobs <br />
-                    Marketing jobs <br />
-                    Mechanical Engineering Jobs <br />
-                    Networking jobs <br />
-                  </Typography>
-                </li>
-                <div className="view">
+                <Typography variant="h6" className="listtitle">Jobs by Top skills</Typography>
+                <Divider/>
+                <ListItem>
+                  <Link className="listitems">Accounting Jobs</Link>
+                </ListItem>
+                <ListItem>
+                  <Link className="listitems">Analytical Jobs</Link>
+                </ListItem>
+                <ListItem>
+                  <Link className="listitems">Animation Jobs</Link>
+                </ListItem>
+                <ListItem>
+                  <Link className="listitems">Architecture Jobs</Link>
+                </ListItem>
+                <ListItem>
+                  <Link className="listitems">Banking Jobs</Link>
+                </ListItem>
+                <ListItem>
+                  <Link className="listitems">BPO Jobs</Link>
+                </ListItem>
+                <ListItem>
+                  <Link className="listitems">Data Science Jobs</Link>
+                </ListItem>
+                <ListItem>
+                  <Link className="listitems">Java Jobs</Link>
+                </ListItem>
+                <ListItem>
+                  <Link className="listitems">Marketing Jobs</Link>
+                </ListItem>
+                <ListItem>
+                  <Link className="listitems">Mechnical Engineering Jobs</Link>
+                </ListItem>                
+                <ListItem>
+                  <Link className="listitems">Networking Jobs</Link>
+                </ListItem>
                  <Router>
-                 <Link href="#" style={{underline:"none"}}>View all</Link>
+                 <Link href="#" className="viewall">View all &gt;</Link>
                  </Router>
-                </div>
               </List>
             </Card>
           </Router>
